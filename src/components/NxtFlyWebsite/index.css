@@ -774,7 +774,13 @@
         flex-direction: column;
     }
 }
-
+@media screen and (max-width:576px){
+    .signup-input-section{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+}
 .signup-email{
     height:23px;
     width:250px;
